@@ -1,0 +1,9 @@
+Generate recovery bootchian on the compiled debian system by using the following command package:
+Usage: ./pack_recovery.sh [die0_bootchain] [die1_bootchain]
+  parm1：(required),/path/die0_bootchain.bin
+  parm2：(optional),/path/die1_bootchain.bin
+eg:
+  ./pack_recovery.sh /path/die0_bootchain.bin
+  ./pack_recovery.sh /path/die0_bootchain.bin /path/die1_bootchain.bin
+
+After the execution is complete, the corresponding recovery bootchian is generated in the current directory
