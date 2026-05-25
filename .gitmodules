@@ -1,0 +1,9 @@
+[submodule "source/uboot-eswin"]
+	path = source/uboot-eswin
+	url = git@github.com:DC-DeepComputing/fml13v03_u-boot.git
+[submodule "source/opensbi-eswin"]
+	path = source/opensbi-eswin
+	url = git@github.com:DC-DeepComputing/fml13v03_opensbi.git
+[submodule "source/linux-eswin"]
+	path = source/linux-eswin
+	url = git@github.com:DC-DeepComputing/DC-linux.git
